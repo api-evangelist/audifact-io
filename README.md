@@ -1,4 +1,4 @@
-# audifact-io
+# Audifact
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,141 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-audifact-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://audifact.io/
+Audifact provides an auditable ledger for AI agents, recording decisions, context, and outcomes in a hash‑chained append‑only event log. The platform enables enterprises and product teams to prove AI behavior, support compliance, and troubleshoot models. Features include quick integration via a simple wrap() for LangGraph, CrewAI, and other frameworks, as well as direct API access. Audifact offers a free demo mode, enterprise‑grade security, and tools for compliance reporting.
+
+**Areas:** AI · Auditing · Ledger · Compliance · Agents · Platform
+
+## Audifact on APIs.io
+
+Everything profiled for Audifact is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/audifact-io/](https://apis.io/providers/audifact-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (12)
+
+- [Audifact Account API](https://apis.io/apis/audifact-io/audifact-io-account-api/) — The account API from Audifact — 15 operation(s) for account.
+- [Audifact Admin API](https://apis.io/apis/audifact-io/audifact-io-admin-api/) — The admin API from Audifact — 7 operation(s) for admin.
+- [Audifact Agents API](https://apis.io/apis/audifact-io/audifact-io-agents-api/) — The agents API from Audifact — 1 operation(s) for agents.
+- [Audifact Auth API](https://apis.io/apis/audifact-io/audifact-io-auth-api/) — The auth API from Audifact — 8 operation(s) for auth.
+- [Audifact Events API](https://apis.io/apis/audifact-io/audifact-io-events-api/) — The events API from Audifact — 1 operation(s) for events.
+- [Audifact Explorer API](https://apis.io/apis/audifact-io/audifact-io-explorer-api/) — The explorer API from Audifact — 9 operation(s) for explorer.
+- [Audifact Internal API](https://apis.io/apis/audifact-io/audifact-io-internal-api/) — The Internal API from Audifact — 7 operation(s) for internal.
+- [Audifact Ledger API](https://apis.io/apis/audifact-io/audifact-io-ledger-api/) — The ledger API from Audifact — 7 operation(s) for ledger.
+- [Audifact MCP API](https://apis.io/apis/audifact-io/audifact-io-mcp-api/) — The mcp API from Audifact — 4 operation(s) for mcp.
+- [Audifact Org API](https://apis.io/apis/audifact-io/audifact-io-org-api/) — The org API from Audifact — 7 operation(s) for org.
+- [Audifact Verification API](https://apis.io/apis/audifact-io/audifact-io-verification-api/) — The verification API from Audifact — 7 operation(s) for verification.
+- [Audifact Web API](https://apis.io/apis/audifact-io/audifact-io-web-api/) — The web API from Audifact — 44 operation(s) for web.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Audifact Io Agentic Access](https://apis.io/agentic-access/audifact-io/audifact-io-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Body_account_change_password_account_password_post](https://apis.io/schemas/audifact-io/audifact-io-body-account-change-password-account-password-post/)
+- [Body_account_credits_top_up_account_credits_top_up_post](https://apis.io/schemas/audifact-io/audifact-io-body-account-credits-top-up-account-credits-top-up-post/)
+- [Body_dashboard_test_event_dashboard_test_event_post](https://apis.io/schemas/audifact-io/audifact-io-body-dashboard-test-event-dashboard-test-event-post/)
+- [Body_feedback_post_feedback_post](https://apis.io/schemas/audifact-io/audifact-io-body-feedback-post-feedback-post/)
+- [Body_signup_submit_signup_post](https://apis.io/schemas/audifact-io/audifact-io-body-signup-submit-signup-post/)
+- [SignupRequest](https://apis.io/schemas/audifact-io/audifact-io-signup-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Audifact Io Context](https://apis.io/jsonld/audifact-io/audifact-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Audifact API Rules](https://apis.io/rules/audifact-io/audifact-io-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Audifact Io Authentication](https://apis.io/security/audifact-io/audifact-io-authentication/)
+- [Audifact Io Domain Security](https://apis.io/security/audifact-io/audifact-io-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Audifact Io Scopes](https://apis.io/scopes/audifact-io/audifact-io-scopes/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://audifact.io/)
+- [Documentation](https://audifact.io/docs)
+- [Getting started](https://audifact.io/docs/quickstart)
+- [API reference](https://audifact.io/docs)
+- [Sign up](https://audifact.io/signup)
+- [Terms of service](https://audifact.io/terms)
+- [Privacy policy](https://audifact.io/privacy)
+- [GitHub](https://github.com/audifact)
+- [Status](https://audifact.io/status)
+
+## API Evangelist rating
+
+**Kin Score 53.2** — developing · rubric 0.26.0 · scored 2026-11-02
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.7 |
+| Contract quality | 53.1 |
+| Contract governance | 79.1 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 63.6 |
+| Access clarity | 34.2 |
+
+**Agent readiness 33.3** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | — |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 31.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/audifact-io/](https://apis.io/providers/audifact-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Audifact: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/audifact-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
